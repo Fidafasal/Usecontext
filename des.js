@@ -16,3 +16,5 @@ const sample = (a,b) => console.log(a,b);
 
 
 sample(10,7)
+
+console.log(sample.id);
