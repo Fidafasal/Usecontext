@@ -1,18 +1,20 @@
-import data from "../data.json"
+import data from "../data"
 
-const Json=()=>{
+const Json = () => {
 
- console.log("name = ",data.name);
- console.log("city =",data.city);
- 
-//  stringfy
-const Data = JSON.stringify(data);
-console.log(Data);
+    console.log("name = ", data.name);
+    console.log("city =", data.city);
 
-// parse
+    console.log(data);
+    
+    //  stringfy
+    const Data = JSON.stringify(data);
+    console.log(Data);
+
+    // parse
 
 
-    return(
+    return (
 
 
         <div>
