@@ -21,15 +21,24 @@
 
 
 
-console.log("start");
+// console.log("start");
 
-const sample = () => {
-    setTimeout(() => {
-        return "sampleFun"
-    }, 3000);
-}
+// const sample = () => {
+//     setTimeout(() => {
+//         return "sampleFun"
+//     }, 3000);
+// }
 
 
-console.log(sample())
+// console.log(sample())
 
-console.log("enddd");
+// console.log("enddd");
+ const products = {
+    id : 456,
+    name : "fruits",
+    price : 200
+ }
+ const { id } = products
+ console.log(id);
+ 
+ 

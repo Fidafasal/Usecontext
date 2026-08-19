@@ -1,6 +1,17 @@
-{
-  "id": 101,
-  "name": "John Doe",
-  "city": "New York",
-  "member": true
-}
+[
+  {
+    "id": 1,
+    "name": "John",
+    "city": "New York"
+  },
+  {
+    "id": 2,
+    "name": "Alice",
+    "city": "New York"
+  },
+  {
+    "id": 1,
+    "name": "Bob",
+    "city": "New York"
+  }
+]
